@@ -77,3 +77,4 @@ Set the environment variable `GITHUB_AUTH_TOKEN` with an auth token that has `re
 #### Travis CI and Github Pull Request Config
 Set the environment variable `GITHUB_AUTH_TOKEN` with an auth token that has `repo:status` privileges. Pull request builds will post back step results
 ![travis-output](https://raw.githubusercontent.com/patternpaul/caulk/master/readme/travis.png "travis-output")
+
