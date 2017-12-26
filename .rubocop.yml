@@ -1,0 +1,20 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  TargetRubyVersion: 2.1
+  Exclude:
+    - 'rakefile.rb'
+    - 'caulk.gemspec'
+    - 'Gemfile'
+    - 'spec/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+
+Metrics/LineLength:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
